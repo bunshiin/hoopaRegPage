@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hoopa Cüzdan</title>
+    <link rel="web icon" href="assets/icon.svg">
+
+    <link rel="stylesheet" href="style.css">
+
+
+    <link href='https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css' rel='stylesheet'>
+
+</head>
+
+<body>
+    
+    <section class="container forms">
+        <div class="form login">
+            <div class="form-content">
+                <img src="assets/icon.svg" alt="">
+                <form action="#">
+                    <div class="field input-field">
+                        <input type="email" placeholder="E-posta" class="input">
+                    </div>
+
+                    <div class="field input-field">
+                        <input type="tel" placeholder="Tetelefon Numaranız" class="tel">
+                        <i class=''></i>
+                    </div>
+
+                    <div class="field input-field">
+                        <input type="text" placeholder="İsim" class="name">
+                        <i class=''></i>
+                    </div>
+
+                    <div class="field input-field">
+                        <input type="text" placeholder="Soyisim" class="surname">
+                        <i class=''></i>
+                    </div>
+                    <div class="field input-field">
+                        <input type="password" placeholder="Şifre" class="password">
+                        <i onclick="togglePasswordVisibility('password1')" class='bx bx-hide eye-icon'></i>
+                    </div>
+                
+                    <div class="field input-field">
+                        <input type="password" placeholder="Şifre Tekrar" class="password2">
+                        <i onclick="togglePasswordVisibility2('password2')" class='bx bx-hide eye-icon'></i>
+                    </div>
+
+                    <div class="field button-field">
+                        <button type="submit">Kayıt Ol</button>
+                    </div>
+                </form>
+
+            </div>
+
+            <div class="line"></div>
+
+            <div class="media-options">
+                <a href="#" class="field facebook">
+                    <i class='bx bxl-facebook facebook-icon'></i>
+                    <span>Facebook İle Giriş Yap</span>
+                </a>
+            </div>
+
+            <div class="media-options">
+                <a href="#" class="field google">
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/53/Google_%22G%22_Logo.svg/1200px-Google_%22G%22_Logo.svg.png"
+                        alt="" class="google-img">
+                    <span>Google İle Giriş Yap</span>
+                </a>
+            </div>
+
+        </div>
+
+
+
+    </section>
+
+
+</body>
+<script src="index.js"></script>
+</html>
